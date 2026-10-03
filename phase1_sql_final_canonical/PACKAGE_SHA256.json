@@ -1,0 +1,108 @@
+{
+  "tenant_v1_tables": 39,
+  "tenant_v1_fks": 66,
+  "tenant_v1_checks": 14,
+  "tenant_v1_explicit_indexes": 28,
+  "files": [
+    {
+      "path": "DELETION_MATRIX.md",
+      "sha256": "0cdec681f54017bd180257e74dc1a692883b26fc54631bebf6ebec075a51a280",
+      "bytes": 3521
+    },
+    {
+      "path": "MIGRATION_MANIFEST.md",
+      "sha256": "09f9bc92e04b9dc2e2d6ad067ca710437f769181c9eb5ccdef67cf9fe2eae374",
+      "bytes": 944
+    },
+    {
+      "path": "REPLAY_RUNBOOK.md",
+      "sha256": "f47d5882cbb275e3b48a75243de93fc6940cc2418746026d158164f5929ff284",
+      "bytes": 928
+    },
+    {
+      "path": "SQL_RECONCILIATION_REPORT.md",
+      "sha256": "6eb92174cf4e466c86bf56c6b5ef86308b1916f27f578f6467022ecc5451c3bc",
+      "bytes": 1830
+    },
+    {
+      "path": "VALIDATION_CHECKLIST.md",
+      "sha256": "a2e597d337535c4af5ebba3699afc4aef5fefea1301a4d7664b7ae17ee2a70d3",
+      "bytes": 772
+    },
+    {
+      "path": "migration/control/V1__create_tenant_registry.sql",
+      "sha256": "26d22b67091967147f9f888d72a4b3a5fd69ef876469920c64d0e46f0d857195",
+      "bytes": 1004
+    },
+    {
+      "path": "migration/control/V2__create_application_catalog.sql",
+      "sha256": "5a44942015ab88515589ff1da1beb3a12a447e857a1f2062ccc797acec751c7f",
+      "bytes": 626
+    },
+    {
+      "path": "migration/control/V3__insert_application_catalog.sql",
+      "sha256": "70b6eb9f0dabc2ac057589f30a2575a75ee9a0e00992590fefb1d17fd8273eef",
+      "bytes": 980
+    },
+    {
+      "path": "migration/tenant/V1__create_phase1_schema.sql",
+      "sha256": "498a8821cdf5a370dbcab4da371540a4b439f6e68ca02b1419b6095122987f41",
+      "bytes": 34051
+    },
+    {
+      "path": "migration/tenant/V2__insert_reference_data.sql",
+      "sha256": "605ba7b03e349e00a59128f445ea64816213418dcb60f21bb2c87fd34f15b69f",
+      "bytes": 11849
+    },
+    {
+      "path": "migration/tenant/V3__create_business_application.sql",
+      "sha256": "f66e8ce5f73018c632344ef00461aef5c7d63fa87c9d93743a8fb78073756e47",
+      "bytes": 997
+    },
+    {
+      "path": "schema/phase1_tenant_schema_canonical.sql",
+      "sha256": "498a8821cdf5a370dbcab4da371540a4b439f6e68ca02b1419b6095122987f41",
+      "bytes": 34051
+    },
+    {
+      "path": "validation/00_run_all_validations.sql",
+      "sha256": "501648e9bca1c043d1431fa3708682fcbc4df2b8907c919f07995a858890b60a",
+      "bytes": 361
+    },
+    {
+      "path": "validation/01_schema_validation.sql",
+      "sha256": "ede066338fdd2e7160afb9ce0a5b9ed6d27f2edba59a6e4667e21810233662b9",
+      "bytes": 4017
+    },
+    {
+      "path": "validation/02_constraint_validation.sql",
+      "sha256": "bcedd2bcfa6e22d874e849d9a42b8abb1ca416635be10c8d7c392e2ed58cd47f",
+      "bytes": 3084
+    },
+    {
+      "path": "validation/03_reference_data_validation.sql",
+      "sha256": "201c99ea326f1c81ee132f44dda43c2fab87f1e3957b00a120ef26e68d552221",
+      "bytes": 2022
+    },
+    {
+      "path": "validation/04_cross_schema_validation.sql",
+      "sha256": "a8cb0e51ad42539ca3ddf0eaf829a7fce232c5e0aa0e8e7f6200d144c650f9ec",
+      "bytes": 1086
+    },
+    {
+      "path": "validation/05_tenant_isolation_validation.sql",
+      "sha256": "6f4e2012cedf71cac82e396a578426698ddc363d8742ac2ffcc33401346ced9b",
+      "bytes": 1365
+    },
+    {
+      "path": "validation/06_provisioning_smoke_test.sql",
+      "sha256": "c761198ff62f35af71cd8d30f1f485ecf23f0a4978b1925f99b61400099d2f78",
+      "bytes": 984
+    },
+    {
+      "path": "validation/07_flyway_history_validation.sql",
+      "sha256": "04d85e6e51dbd118bcee023b6b09139cebaa3b55a234e99162ebc3a332d9128f",
+      "bytes": 1134
+    }
+  ]
+}
